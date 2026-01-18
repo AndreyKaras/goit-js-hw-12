@@ -1,0 +1,64 @@
+div .iziToast.iziToast-color-red {
+  background-color: #ef4040;
+  margin: 0px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 432px;
+  border-radius: 3px;
+}
+
+.iziToast > .iziToast-body p.iziToast-message {
+  margin: 0;
+
+  color: #fafafb;
+  width: 322px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.iziToast > .iziToast-body div.iziToast-texts {
+  margin: 0px;
+  padding: 0px;
+}
+
+.span-text {
+  display: block;
+}
+
+.iziToast-capsule .iziToast > .iziToast-body {
+  margin: 0px;
+  width: 354px;
+  align-items: center;
+  display: flex;
+}
+
+.iziToast.iziToast-color-red .iziToast-progressbar > div {
+  background-color: #b51b1b;
+  height: 100% !important;
+  border-radius: 0px 0px 4px 4px !important;
+  overflow: hidden !important;
+}
+
+.iziToast.iziToast-color-red .iziToast-progressbar {
+  background: #ffbebe;
+  height: 2px;
+  margin: 0;
+  border-radius: 0 0 16px 16px;
+  overflow: hidden !important;
+}
+
+.iziToast > button.iziToast-close {
+  background-image: url('../img/bi_x-lg.svg');
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  width: 54px;
+}
+
+.iziToast::after {
+  box-shadow: none !important;
+}
