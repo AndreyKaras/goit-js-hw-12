@@ -61,7 +61,7 @@ async function fetchAndRender(query, page) {
       if (firstCard) {
         const { height } = firstCard.getBoundingClientRect();
         window.scrollBy({
-          top: height * 4,
+          top: height * 2,
           behavior: 'smooth',
         });
       }
